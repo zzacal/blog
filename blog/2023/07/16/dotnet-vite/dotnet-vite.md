@@ -83,7 +83,7 @@ Like it says, run the app!
 
 Commands:
 ```sh
-cd weather-app
+cd ClientApp
 npm install
 npm run dev
 ```
