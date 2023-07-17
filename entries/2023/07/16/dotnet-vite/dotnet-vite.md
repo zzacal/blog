@@ -1,4 +1,10 @@
-# dotnet and vite to use other frameworks
+<style>
+  pre {
+    radius: 1px solid;
+    padding: 1rem;
+  }
+</style>
+# using dotnet and vite to go beyond react and angular
 So you love dotnet but you want to work with front end frameworks other than react or angular.
 This article explains how to use vite with dotnet to achieve just that.
 
