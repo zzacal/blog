@@ -1,7 +1,9 @@
 <style>
-  pre {
-    radius: 1px solid;
-    padding: 1rem;
+  #blog pre {
+    border: 1px solid;
+    padding: .5rem;
+    background-color: #333;
+    border-radius: .5rem;
   }
 </style>
 # using dotnet and vite to go beyond react and angular
