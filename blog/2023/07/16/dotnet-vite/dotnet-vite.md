@@ -101,7 +101,7 @@ Vite is now running at `http://localhost:5173/`.
 
 ![vite+svelte webpage](https://raw.githubusercontent.com/zzacal/blog/main/blog/2023/07/16/dotnet-vite/vite-svelte-default.png)
 
-# use dotnet to create a release build
+## use dotnet to create a release build
 Open the `WeatherApp/WeatherApp.csproj` file and locate the `<DistFiles>` node inside of the `<Target Name="PublishRunWebpack">` node.
 
 Current:
