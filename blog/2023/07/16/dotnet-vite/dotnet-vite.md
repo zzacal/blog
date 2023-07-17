@@ -212,7 +212,7 @@ Now you need to make sure your backend controllers are pre-fixed with `/api`. Fo
 Grouping all backend calls under `/api` is for convenience. There are [other options](https://vitejs.dev/config/server-options.html#server-proxy) you can use if you want to pick a different strategy. 
 
 ### connect dotnet to the vite server
-To tell dotnet where vite is being served, open the `WeatherApp/WeatherApp.csproj` file and update the Spa configurations in the following nodes.
+To tell dotnet how to start the vite dev server and where vite is listening, open the `WeatherApp/WeatherApp.csproj` file and update the Spa configurations in the following nodes.
 
 Before:
 ```xml
