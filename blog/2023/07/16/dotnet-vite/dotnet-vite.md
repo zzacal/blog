@@ -45,7 +45,7 @@ rm WeatherApp/ClientApp
 
 Your client app folder should be empty now.
 
-![no react](https://raw.githubusercontent.com/zzacal/blog/main/entries/2023/07/16/dotnet-vite/no-react.png)
+![no react](https://raw.githubusercontent.com/zzacal/blog/main/blog/2023/07/16/dotnet-vite/no-react.png)
 
 ## use vite to pick your front end framework
 We're going to follow the [vite Getting Started guide](https://vitejs.dev/guide/) to create a svelte application.
@@ -99,7 +99,7 @@ Output:
 
 Vite is now running at `http://localhost:5173/`.
 
-![vite+svelte webpage](https://raw.githubusercontent.com/zzacal/blog/main/entries/2023/07/16/dotnet-vite/vite-svelte-default.png)
+![vite+svelte webpage](https://raw.githubusercontent.com/zzacal/blog/main/blog/2023/07/16/dotnet-vite/vite-svelte-default.png)
 
 # use dotnet to create a release build
 Open the `WeatherApp/WeatherApp.csproj` file and locate the `<DistFiles>` node inside of the `<Target Name="PublishRunWebpack">` node.
@@ -155,7 +155,7 @@ MSBuild version 17.6.8+c70978d4d for .NET
   ✓ built in 276ms
   WeatherApp -> C:\repos\dotnet-svelte\WeatherApp\bin\Debug\net7.0\publish\
 ```
-![dotnet-publish results](https://raw.githubusercontent.com/zzacal/blog/main/entries/2023/07/16/dotnet-vite/dotnet-publish-result.png)
+![dotnet-publish results](https://raw.githubusercontent.com/zzacal/blog/main/blog/2023/07/16/dotnet-vite/dotnet-publish-result.png)
 
 Congratulations! At this point, if you published this output, you have a working svelte site served by dotnet.
 
@@ -250,4 +250,4 @@ info: Microsoft.Hosting.Lifetime[0]
 
 Navigate to `https://localhost:7006/` and you should be automatically directed to `https://localhost:5173/`
 
-![vite+svelte webpage](https://raw.githubusercontent.com/zzacal/blog/main/entries/2023/07/16/dotnet-vite/vite-svelte-default.png)
+![vite+svelte webpage](https://raw.githubusercontent.com/zzacal/blog/main/blog/2023/07/16/dotnet-vite/vite-svelte-default.png)
