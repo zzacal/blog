@@ -4,6 +4,16 @@
     padding: .5rem;
     background-color: #333;
     border-radius: .5rem;
+    overflow: hidden;
+    margin: .5rem;
+  }
+  @media screen and (min-width: 1280px) {
+    #blog pre {
+      margin: unset;
+    }
+  }
+  #blog img {
+    max-width:100%;
   }
 </style>
 # using dotnet and vite to go beyond react and angular
